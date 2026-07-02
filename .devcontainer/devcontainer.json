@@ -1,0 +1,13 @@
+{
+  "name": "Kotlin Interview (Android/JVM)",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "postCreateCommand": "chmod +x ./gradlew && ./gradlew testClasses -q || true",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "fwcd.kotlin",
+        "vscjava.vscode-gradle"
+      ]
+    }
+  }
+}
